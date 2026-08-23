@@ -104,7 +104,7 @@ document.querySelectorAll('.fade-section').forEach(i => fadeSecObserver.observe(
   const nextBtn = document.getElementById('cfNext');
   const dotsWrap = document.getElementById('cfDots');
 
-  let currentIndex = 2;
+  let currentIndex = 0;
 
   // Build dot indicators
   cards.forEach((_, i) => {
